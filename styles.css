@@ -1,0 +1,186 @@
+@font-face {
+	font-family: 'GoudyOldStyleT-BoldItalic';
+	src: url('/fonts/GoudyOldStyleT-BoldItalic.eot');
+	src: local('☺'), url('/fonts/GoudyOldStyleT-BoldItalic.woff') format('woff'), url('/fonts/GoudyOldStyleT-BoldItalic.ttf') format('truetype'), url('/fonts/GoudyOldStyleT-BoldItalic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'GoudyOldStyleT-Bold';
+	src: url('/fonts/GoudyOldStyleT-Bold.eot');
+	src: local('☺'), url('/fonts/GoudyOldStyleT-Bold.woff') format('woff'), url('/fonts/GoudyOldStyleT-Bold.ttf') format('truetype'), url('/fonts/GoudyOldStyleT-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'GoudyOldStyleT-Italic';
+	src: url('/fonts/GoudyOldStyleT-Italic.eot');
+	src: local('☺'), url('/fonts/GoudyOldStyleT-Italic.woff') format('woff'), url('/fonts/GoudyOldStyleT-Italic.ttf') format('truetype'), url('/fonts/GoudyOldStyleT-Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'GoudyOldStyleT-Regular';
+	src: url('/fonts/GoudyOldStyleT-Regular.eot');
+	src: local('☺'), url('/fonts/GoudyOldStyleT-Regular.woff') format('woff'), url('/fonts/GoudyOldStyleT-Regular.ttf') format('truetype'), url('/fonts/GoudyOldStyleT-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'KonstantinBe';
+	src: url('/fonts/KonstantinBe.eot');
+	src: local('☺'), url('/fonts/KonstantinBe.woff') format('woff'), url('/fonts/KonstantinBe.ttf') format('truetype'), url('/fonts/KonstantinBe.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'PrinceValiant';
+	src: url('/fonts/PrinceValiant.eot');
+	src: local('☺'), url('/fonts/PrinceValiant.woff') format('woff'), url('/fonts/PrinceValiant.ttf') format('truetype'), url('/fonts/PrinceValiant.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Vinque';
+	src: url('/fonts/Vinque.eot');
+	src: local('☺'), url('/fonts/Vinque.woff') format('woff'), url('/fonts/Vinque.ttf') format('truetype'), url('/fonts/Vinque.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.form-label {
+	font-weight: bold;
+    letter-spacing: .03em;
+}
+
+.form-label::after {
+	content: ": ";
+}
+
+.form-label, .form-control, .form-control > input {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	height: auto;
+}
+
+.form-control, .form-control > input {
+	font-family: 'Lato', sans-serif;
+	border: 1px solid transparent;
+	background-color: transparent;
+	background-image: none;
+	display: inline-block;
+	width: auto;
+	line-height: 18px;
+}
+
+*:hover > .form-control > input {
+	border-color: #a00;
+	border-style: dashed;
+}
+*:hover > .form-control > input[disabled] {
+	border-color: #aaa;
+	border-style: dashed;
+}
+.form-control > input:focus {
+	border-color: #5e0000;
+	outline-color: #5e0000;
+}
+.form-control > input:hover {
+	border-color: #a00;
+	border-style: solid;
+}
+.form-control > input[disabled]:hover {
+	border-color: #aaa;
+	border-style: dashed;
+}
+
+h2, .title {
+	font-family: 'Arizonia', cursive;
+	font-size: 48px;
+	font-weight: normal;
+	color: #a00;
+	margin: 20px 0px 0px 0px;
+}
+
+p, .description {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin: 0px 0px 10px 0px;
+}
+
+label, .label {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin: 0px 0px 10px 0px;
+	font-weight: bold;
+}
+input, span, .value {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin: 0px 0px 10px 0px;
+	margin: 0px;
+}
+
+ul, ol {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+li {
+	margin: 7.5px, 0px;
+	padding: 0px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	flext-wrap: no-wrap;
+	align-items: baseline;
+}
+.flex-fill {
+	flex-grow: 1;
+	flex: 1;
+}
+
+.Select-multi-value-wrapper {
+	margin-right: 25px;
+}
+
+button, *[type=button] {
+	font-family: 'Germania One', cursive;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding: 2px 5px;
+	margin: 5px;
+	border-radius: 5px;
+	color: #a00;
+	cursor: pointer;
+	outline: none;
+	border-color-top: #aaa;
+	border-color-right: #aaa;
+	border-color-bottom: transparent;
+	border-color-left: transparent;
+	border-width: 2px;
+}
+button:hover,
+*[type=button]:hover,
+button:active,
+*[type=button]:active {
+	color: #5e0000;
+	outline: none;
+}
+
+button:active,
+*[type=button]:active {
+	color: #5e0000;
+	border-color-top: transparent;
+	border-color-right: transparent;
+	border-color-bottom: #aaa;
+	border-color-left: #aaa;
+}
+.clickable {
+	cursor: pointer;
+}
